@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         let myLabel = UILabel()
         myLabel.text = "TEST"
         myLabel.textAlignment = .center
-        myLabel.textColor = .blue
+        myLabel.textColor = .gray
         myLabel.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
         
         self.view.addSubview(myLabel)
