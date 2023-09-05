@@ -15,7 +15,6 @@ class ViewController: UIViewController {
         myLabel.text = "TEST"
         myLabel.textAlignment = .center
         myLabel.textColor = .gray
-        myLabel.sizeToFit()
         myLabel.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
         
         self.view.addSubview(myLabel)
